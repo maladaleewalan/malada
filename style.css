@@ -1,0 +1,19 @@
+body{
+    background-color: hotpink;
+}
+.header{
+    background-color: lightblue;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    color: lightcoral;
+    width: 50%;
+    border: dotted 10px green;
+    font-family: 'Courier New';
+}
+p{
+    font-size:25px;
+}
+ul li{
+    font-size: 20px;
+}
