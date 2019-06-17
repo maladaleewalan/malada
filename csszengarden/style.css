@@ -17,42 +17,43 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	background: #fff url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Download-Free-Aquamarine-Background.jpg) no-repeat bottom right; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	margin: 0; 
 	padding: 0;
 	}
 p { 
-	margin-top: 0; 
-	text-align: justify;
+	font-family: 'Acme', sans-serif;
+	letter-spacing: 2px;
+	font-size:17px;
 	}
-h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
-	}
+
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: chocolate;
+	font-size:20px;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #D4CDDC;
 	}
-a:hover, a:focus, a:active { 
+a:hover, a:focus {
 	text-decoration: underline; 
-	color: #9685BA;
+	background-color: cornflowerblue;
+	color: crimson;
 	}
-abbr {
-	border-bottom: none;
-	}
+a:active{
+	background-color: darkseagreen;
+	color: deeppink;
+}
+
 
 
 /* specific divs */
 .page-wrapper { 
-	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
@@ -64,17 +65,19 @@ abbr {
 	}
 
 header h1 { 
-	background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
+	margin-top: 0px;
+	display: block; 
+	text-align: center;
 
-	text-indent: 100%;
+	/* color:black;
+	font-size: 50px;
+	text-shadow:white  5px 5px; */
+	/* font-weight: bold; */
+
+	 /* text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
-	}
+	overflow: hidden;  */
+}
 header h2 { 
 	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left; 
 	margin-top: 58px; 
@@ -93,14 +96,16 @@ header {
 }
 
 .summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
+	/* clear: both;  */
+	 margin: 100px 20px 20px 10px; 
+	
+	/* float: left; */
+
 	}
 .summary p {
-	font: italic 1.1em/2.2 georgia; 
+	/* font: italic 1.1em/2.2 georgia;  */
 	text-align: center;
+	
 	}
 
 .preamble {
@@ -192,3 +197,8 @@ footer a:link, footer a:visited {
 	width: 148px; 
 	height: 110px;
 	}
+
+#start{
+	position: absolute;
+	top:90px;
+}
