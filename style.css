@@ -1,19 +1,49 @@
-body{
-    background-color: hotpink;
+a{
+    font-size: 30px;
 }
-.header{
-    background-color: lightblue;
-    text-align: center;
-    padding: 5px;
-    border-radius: 20px;
-    color: lightcoral;
-    width: 50%;
-    border: dotted 10px green;
-    font-family: 'Courier New';
+a:hover{
+    font-size: 40px;
+    
 }
-p{
-    font-size:25px;
+a:active{
+    color:greenyellow;
 }
-ul li{
+.topic{
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    color: indianred;
+    text-shadow: black 1px 1px;
+}
+li{
+    display: inline;
+    margin-left: 20px; 
     font-size: 20px;
 }
+body{
+    background-image: url("https://images.pexels.com/photos/1352751/pexels-photo-1352751.jpeg?cs=srgb&dl=cahaya-desain-interior-dinding-1352751.jpg&fm=jpg");
+}
+.box{
+    background-color: lightpink;
+    border: goldenrod 1px solid;
+    width:310px;
+    height:390px;
+    margin-top:10px;
+    margin-left:30px;
+    border-radius: 25px;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+}
+#data{
+    position:absolute;
+    left:180px;
+    top:315px;
+}
+p#text:hover{
+    text-shadow:palevioletred 3px 3px;
+    font-weight: bold;
+}
+
+
+
+
+
