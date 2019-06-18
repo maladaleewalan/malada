@@ -24,21 +24,23 @@ body {
 	padding: 0;
 	}
 p { 
-	font-family: 'Acme', sans-serif;
+	font-family: 'Fredoka One', cursive;
 	letter-spacing: 2px;
-	font-size:17px;
+	font-size:18px;
+	color: #555753;
+	text-indent: 50px;
 	}
 
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: chocolate;
-	font-size:20px;
+	font-size:23px;
 	}
 a:visited { 
 	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
+	text-decoration:none; 
+	color: darkgreen;
 	}
 a:hover, a:focus {
 	text-decoration: underline; 
@@ -103,7 +105,7 @@ header {
 
 	}
 .summary p {
-	/* font: italic 1.1em/2.2 georgia;  */
+	
 	text-align: center;
 	
 	}
@@ -119,10 +121,11 @@ header {
 
 footer { 
 	text-align: center; 
-	}
+	font-family: 'Orbitron', sans-serif;
+}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
-	}
+}
 
 .sidebar {
 	margin-left: 600px; 
@@ -201,4 +204,23 @@ footer a:link, footer a:visited {
 #start{
 	position: absolute;
 	top:90px;
+}
+a.menu:link {
+	font-weight: bold; 
+	text-decoration: none; 
+	color: darkmagenta;
+	font-size:20px;	
+	font-family: 'Josefin Sans', sans-serif;
+	text-shadow: burlywood 2px 2px;
+}
+p.end{
+	font-family: 'Lobster Two', cursive;
+	letter-spacing: 2px;
+	font-size:18px;
+	color: black;
+}
+a.click{
+	font-size:40px;
+	color: darkturquoise;
+	text-shadow: #fff 2px 2px;
 }
