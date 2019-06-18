@@ -17,7 +17,7 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: #fff url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Download-Free-Aquamarine-Background.jpg) no-repeat bottom right; 
+	background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/calm-reflective-water-background_bjnehswwh__F0000.png) no-repeat bottom right; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin: 0; 
@@ -128,10 +128,9 @@ footer a:link, footer a:visited {
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
-	/* background: transparent  top left repeat-y;  */
 	padding: 10px; 
 	margin-top: 40px; 
-	width: 250px; 
+	width: 270px; 
 }
 
 .sidebar ul {
@@ -187,7 +186,7 @@ a.choice:link,a.choice:visited{
 	font-weight: normal;
 	font-size:18px;
 	font-weight: normal;
-	color: cornsilk;
+	color: coral;
 	letter-spacing: 2px;
 	text-shadow: #555753 1px 1px;
 }
